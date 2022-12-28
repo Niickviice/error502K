@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Reclutamiento</name>
+   <tag></tag>
+   <elementGuidId>6908d0c8-32f7-4b46-aed4-1dc88e8cb278</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Reclutamiento')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.item-935 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b419059b-abaa-4c50-a61c-c91a43898b00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/atraccion-y-desarrollo/reclutamiento-int</value>
+      <webElementGuid>18f2c6ce-3e7a-400c-ac85-739a6bf78cfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reclutamiento</value>
+      <webElementGuid>ba2eec76-25a2-4edd-a59e-d8bbd12e4fab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav  art-hmenu&quot;]/li[@class=&quot;nav-item item-911 divider deeper parent&quot;]/ul[@class=&quot;mod-menu__sub list-unstyled small&quot;]/li[@class=&quot;nav-item item-935&quot;]/a[1]</value>
+      <webElementGuid>48389272-61b5-44fb-861e-113cead040ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Reclutamiento')]</value>
+      <webElementGuid>695f36e9-b7e8-4807-975d-3b3362e054fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Atracción y Desarrollo'])[1]/following::a[1]</value>
+      <webElementGuid>a7b2bf85-b50f-4716-b282-c3a8b2303ced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resultados e Informes'])[1]/following::a[1]</value>
+      <webElementGuid>1b52ec1e-cbc0-42e9-8f7f-9b1bdd3d22db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arranque'])[1]/preceding::a[1]</value>
+      <webElementGuid>22f53d9d-a61c-4c5e-b38d-1a8aec6f6898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prácticas de Trabajo'])[1]/preceding::a[2]</value>
+      <webElementGuid>b68e7d23-213c-4a43-af46-37995b967681</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Reclutamiento']/parent::*</value>
+      <webElementGuid>388c49b4-ae03-4715-b046-cd4e63213ec3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/index.php/atraccion-y-desarrollo/reclutamiento-int')]</value>
+      <webElementGuid>0f442a75-bafc-45d1-8d67-2e7f7da107f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li/a</value>
+      <webElementGuid>bf49f8a9-2dad-4329-b127-6016d619e10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/index.php/atraccion-y-desarrollo/reclutamiento-int' and (text() = 'Reclutamiento' or . = 'Reclutamiento')]</value>
+      <webElementGuid>f011bdde-0df0-4424-91e2-e04668c25bbc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

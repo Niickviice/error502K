@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Eventos</name>
+   <tag></tag>
+   <elementGuidId>7b8f08f2-cc61-474f-8eed-e65b16ac0734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Eventos')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.item-449 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e11afbc8-94a1-4267-987b-e4dc14f614a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/eventos</value>
+      <webElementGuid>b6584620-0aed-4fa7-9cd3-eddb45d760ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Eventos</value>
+      <webElementGuid>ca6daf42-c35d-4162-bdc3-4f7f443ec4e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav  art-hmenu&quot;]/li[@class=&quot;nav-item item-449&quot;]/a[1]</value>
+      <webElementGuid>eb5c534f-d66c-4ba7-8805-9894374f8e57</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Eventos')]</value>
+      <webElementGuid>3fc2e4f3-b6c6-4315-9cbd-e8d3160d9e33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ética y Cumplimiento'])[1]/following::a[1]</value>
+      <webElementGuid>9c5bd541-16f0-4ccc-a590-5cab312cd185</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apoyo de Ventas'])[1]/following::a[2]</value>
+      <webElementGuid>47626a62-ca70-4cdd-92a7-23a21d71c7b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comunicación'])[1]/preceding::a[1]</value>
+      <webElementGuid>c8876796-9d95-4559-8fcd-92f771f92e98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Campañas'])[1]/preceding::a[1]</value>
+      <webElementGuid>8b01aaf7-8cc9-458b-916a-06b2a59ad572</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Eventos']/parent::*</value>
+      <webElementGuid>4010aa80-f21d-4de0-b8c7-86e26a31cbd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/index.php/eventos')]</value>
+      <webElementGuid>ed5c685b-7044-4ff3-bad6-874601b269b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/a</value>
+      <webElementGuid>83e6f47c-b77b-412d-a326-18fb2fbca16d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/index.php/eventos' and (text() = 'Eventos' or . = 'Eventos')]</value>
+      <webElementGuid>a94f48a4-f732-47c6-87cb-4a19fb2c3045</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

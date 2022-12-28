@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Autoestudio</name>
+   <tag></tag>
+   <elementGuidId>abc95c20-69c1-44d1-9a6c-4255fe728c30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Prácticas de Trabajo'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dbf8d6eb-4163-41e4-b810-ec920b3f551d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mod-menu__separator separator </value>
+      <webElementGuid>4aaf7eaa-f527-475f-a1bc-3184f546a0a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Autoestudio</value>
+      <webElementGuid>83d453f0-1c28-4da8-b9ce-649292dbcc83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 js cssanimations responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav&quot;]/li[@class=&quot;nav-item item-435 divider deeper parent&quot;]/span[@class=&quot;mod-menu__separator separator&quot;]</value>
+      <webElementGuid>a3eca952-ecc8-406e-8b42-c2516e5dc3a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prácticas de Trabajo'])[1]/following::span[1]</value>
+      <webElementGuid>5c56cdda-32dd-41fd-add7-58c296ca46bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Arranque'])[1]/following::span[1]</value>
+      <webElementGuid>056051b4-ff07-437e-8a2e-30d803115fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Microclases'])[1]/preceding::span[1]</value>
+      <webElementGuid>4f71189d-d087-4582-ba95-a17bcc3d9748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDEAS en Corto'])[1]/preceding::span[1]</value>
+      <webElementGuid>873c75d4-3ef2-46a2-af2d-88ae7c7cce37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Autoestudio']/parent::*</value>
+      <webElementGuid>bb42762d-2380-4891-b60a-cded55851c03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/span</value>
+      <webElementGuid>50dfb993-d9b2-42a2-8cac-bba5312e044a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Autoestudio' or . = 'Autoestudio')]</value>
+      <webElementGuid>3e047cc0-c09a-403b-ae35-c2acd879b57e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

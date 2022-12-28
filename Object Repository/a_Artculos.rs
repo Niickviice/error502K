@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Artculos</name>
+   <tag></tag>
+   <elementGuidId>765826c6-554f-452e-803f-f9193fe8ab8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Artículos')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.item-445 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>20c977b2-502b-4f3e-86ea-94579565e47f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/material-de-apoyo/artículos</value>
+      <webElementGuid>d7b32d96-4e70-4611-8da5-a6999a8fd0ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Artículos</value>
+      <webElementGuid>c92e7255-6a74-48c5-aadf-1e43cc9904bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav  art-hmenu&quot;]/li[@class=&quot;nav-item item-444 divider deeper parent&quot;]/ul[@class=&quot;mod-menu__sub list-unstyled small&quot;]/li[@class=&quot;nav-item item-445&quot;]/a[1]</value>
+      <webElementGuid>7c099290-b341-4d2d-91eb-a7845abf2184</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Artículos')]</value>
+      <webElementGuid>75fc0ed1-7b76-4ae4-b4f6-87e1340f214b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Material de Capacitación'])[1]/following::a[1]</value>
+      <webElementGuid>48e3ce5e-86b2-4298-9341-ef21577e7375</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula B'])[1]/following::a[1]</value>
+      <webElementGuid>f6522bae-4b10-424b-95b1-a87ae534b6ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Libros'])[1]/preceding::a[1]</value>
+      <webElementGuid>75e7ffd9-75c0-4aaf-99a4-b7f09af25198</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tips de Venta'])[1]/preceding::a[2]</value>
+      <webElementGuid>70c8720f-29ec-432d-ade9-b0a1bc6136a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Artículos']/parent::*</value>
+      <webElementGuid>ab17b7bc-1af8-4945-a057-c7aee3be9d9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/index.php/material-de-apoyo/artículos')]</value>
+      <webElementGuid>a341eb40-958e-4ea1-b4e9-645d2baee83a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li/a</value>
+      <webElementGuid>99a7bd22-bea6-4d6c-9cc6-d17da1e70e78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/index.php/material-de-apoyo/artículos' and (text() = 'Artículos' or . = 'Artículos')]</value>
+      <webElementGuid>a870e398-3b72-4ad4-8b5d-a3064c1d31dd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

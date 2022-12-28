@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Microclases</name>
+   <tag></tag>
+   <elementGuidId>6ef44fbb-bdde-42e2-b96d-0be5c900aa78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Microclases')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.item-436 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>31d4fe10-d135-4589-b1c0-666777e07dde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/autoestudio/negocio-individual</value>
+      <webElementGuid>34cae5fa-389d-48e6-9e5c-474b48ce54ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Microclases</value>
+      <webElementGuid>ba7d7ad2-1e40-4241-8288-b87d986c015a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 js cssanimations responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav&quot;]/li[@class=&quot;nav-item item-435 divider deeper parent&quot;]/ul[@class=&quot;mod-menu__sub list-unstyled small&quot;]/li[@class=&quot;nav-item item-436&quot;]/a[1]</value>
+      <webElementGuid>3a8a94cd-d1a6-4bf0-9a11-04d7412f384b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Microclases')]</value>
+      <webElementGuid>5e439b4b-95ae-492d-9aa8-fff1af7ac2ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autoestudio'])[1]/following::a[1]</value>
+      <webElementGuid>aafe4ea5-5d0a-4d9b-a7b0-a2468f25e728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Prácticas de Trabajo'])[1]/following::a[1]</value>
+      <webElementGuid>ace6915b-dd89-4599-a4dc-77da1a8edc97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IDEAS en Corto'])[1]/preceding::a[1]</value>
+      <webElementGuid>4c6311ed-095e-45bb-9db1-42c186450bd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cédula A'])[1]/preceding::a[2]</value>
+      <webElementGuid>f7efb587-6c21-4e3e-96d7-36c1c1cb3fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Microclases']/parent::*</value>
+      <webElementGuid>e5e70335-7b6e-4f3b-9b82-848246b0f1d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/index.php/autoestudio/negocio-individual')]</value>
+      <webElementGuid>d1802042-43ff-4e2a-bcb3-19bd19696aa2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/ul/li/a</value>
+      <webElementGuid>be900dc8-8c22-4e59-9651-32f9c2ebea3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/index.php/autoestudio/negocio-individual' and (text() = 'Microclases' or . = 'Microclases')]</value>
+      <webElementGuid>ed98fa36-0102-491d-acd5-5af18e5797a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

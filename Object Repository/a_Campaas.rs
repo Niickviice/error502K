@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Campaas</name>
+   <tag></tag>
+   <elementGuidId>b10cecf2-e6cf-4d88-8b42-5d6e85c36d54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'Campañas')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.nav-item.item-628 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6f4b82e4-bcf6-48d4-8001-f1d9eb09d144</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/index.php/comunicacion-gnp/campanas</value>
+      <webElementGuid>8b7f0dbc-7ab1-40b3-bf6b-0a86a64cd67c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Campañas</value>
+      <webElementGuid>4716039b-78be-431f-8007-dfe270909e0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;h-100 chrome chrome108 responsive responsive-tablet&quot;]/body[@class=&quot;d-flex flex-column h-100&quot;]/div[@class=&quot;container bcs_container cursos_info_modal&quot;]/div[@class=&quot;col-md-12 ps-0 pe-0&quot;]/header[@class=&quot;d-flex justify-content-center menu&quot;]/ul[@class=&quot;mod-menu mod-list nav  art-hmenu&quot;]/li[@class=&quot;nav-item item-601 divider deeper parent&quot;]/ul[@class=&quot;mod-menu__sub list-unstyled small&quot;]/li[@class=&quot;nav-item item-628&quot;]/a[1]</value>
+      <webElementGuid>adc46e90-2364-484b-b3eb-e953bd1df442</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Campañas')]</value>
+      <webElementGuid>bb362aaa-bd5f-454e-8628-39195c266521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comunicación'])[1]/following::a[1]</value>
+      <webElementGuid>7fdb26f1-49d8-417a-9376-cd0348d58284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Eventos'])[1]/following::a[1]</value>
+      <webElementGuid>0f1ac668-2f43-4194-8de5-57e3df69022b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Circulares'])[1]/preceding::a[1]</value>
+      <webElementGuid>0456dd20-a77d-4912-9ec0-dc3b234e5798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notas Informativas'])[1]/preceding::a[2]</value>
+      <webElementGuid>64fdfa9d-9eba-4600-aede-efe3d88f6c46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Campañas']/parent::*</value>
+      <webElementGuid>2da7060f-d63b-4e01-a17b-fde68c546eeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/index.php/comunicacion-gnp/campanas')]</value>
+      <webElementGuid>2df01194-12f6-4a68-87e6-a0a5d570c4d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[10]/ul/li/a</value>
+      <webElementGuid>2ab23225-002a-41ad-a23f-7d5018a59679</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/index.php/comunicacion-gnp/campanas' and (text() = 'Campañas' or . = 'Campañas')]</value>
+      <webElementGuid>7677866f-b38f-4bc1-8576-89dc7f215870</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
