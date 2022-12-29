@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LOGIN_FLUJO_Delay_10</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd0b6b61-208a-4478-8264-483c7a56ec76</testCaseGuid>
+</TestCaseEntity>

@@ -19,86 +19,94 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pru-gnp-lab-migtec-portal.biaani.com/')
 
-WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/input_La contrasea quehas introducido es in_6ef811'), '608')
+WebUI.verifyElementPresent(findTestObject('Object Repository/button_Iniciar sesin'), 10)
 
-WebUI.setText(findTestObject('Object Repository/input_Deseas                               _b18aba'), 'GNP')
+if (WebUI.verifyElementPresent(findTestObject('Object Repository/button_Iniciar sesin'), 10) == true) {
+	WebUI.setText(findTestObject('Object Repository/input_La contrasea quehas introducido es in_6ef811'),
+		'608')
+WebUI.setText(findTestObject('Object Repository/input_Deseas                               _b18aba'),
+		'GNP')
+WebUI.waitForElementClickable(findTestObject('Object Repository/button_Iniciar sesin'), 5)
 
-WebUI.click(findTestObject('Object Repository/button_Iniciar sesin'))
+	WebUI.click(findTestObject('Object Repository/button_Iniciar sesin'))
+
+	WebUI.waitForPageLoad(5)}
+
 
 WebUI.click(findTestObject('Object Repository/span_Oferta Educativa'))
 
 WebUI.click(findTestObject('Object Repository/a_IDEAS GNP'))
 
-if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
-}
+if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
+    WebUI.click(findTestObject('Object Repository/span_Mi Plan de Carrera'))
+} else {
+         WebUI.closeBrowser()   
+        }
 
-WebUI.click(findTestObject('Object Repository/span_Mi Plan de Carrera'))
-
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/a_Mis Avances'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/span_Mi Fuerza de Ventas'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/a_Cursos y Designaciones'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/span_Atraccin y Desarrollo'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.doubleClick(findTestObject('Object Repository/span_Autoestudio'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/a_Microclases'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.doubleClick(findTestObject('Object Repository/a_Artculos'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.doubleClick(findTestObject('Object Repository/a_tica y Cumplimiento'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.click(findTestObject('Object Repository/a_Eventos'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.doubleClick(findTestObject('Object Repository/a_Eventos'))
 
 if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
-    WebUI.verifyTextNotPresent('', 60)
+    WebUI.verifyTextNotPresent('', 10)
 }
 
 WebUI.doubleClick(findTestObject('Object Repository/a_Campaas'))
@@ -107,9 +115,13 @@ if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL))
     WebUI.verifyTextNotPresent('', 10)
 }
 
+WebUI.delay(600)
+
 WebUI.click(findTestObject('Object Repository/input_ADAN AGUSTIN GARCIA FIGUEROA MARTINEZ_5049b8'))
 
+if (WebUI.verifyTextPresent('502 Bad Gateway', false, FailureHandling.OPTIONAL)) {
+    WebUI.verifyTextNotPresent('502 Bad Gateway', 10)
+}
+
 WebUI.closeBrowser()
-
-
 
