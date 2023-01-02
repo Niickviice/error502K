@@ -24,98 +24,88 @@ WebUI.maximizeWindow()
 WebUI.verifyElementPresent(findTestObject('Object Repository/button_Iniciar sesin'), 10)
 
 if (WebUI.verifyElementPresent(findTestObject('Object Repository/button_Iniciar sesin'), 10) == true) {
-	WebUI.setText(findTestObject('Object Repository/input_La contrasea quehas introducido es in_6ef811'),
-		'608')
-WebUI.setText(findTestObject('Object Repository/input_Deseas                               _b18aba'),
-		'GNP')
-WebUI.waitForElementClickable(findTestObject('Object Repository/button_Iniciar sesin'), 5)
+    WebUI.setText(findTestObject('Object Repository/input_La contrasea quehas introducido es in_6ef811'), '608')
 
-	WebUI.click(findTestObject('Object Repository/button_Iniciar sesin'))
+    WebUI.setText(findTestObject('Object Repository/input_Deseas                               _b18aba'), 'GNP')
 
-	WebUI.waitForPageLoad(5)}
+    WebUI.waitForElementClickable(findTestObject('Object Repository/button_Iniciar sesin'), 5)
 
+    WebUI.click(findTestObject('Object Repository/button_Iniciar sesin'))
 
-WebUI.click(findTestObject('Object Repository/span_Oferta Educativa'))
+    WebUI.waitForPageLoad(5)
+}
 
-WebUI.click(findTestObject('Object Repository/a_IDEAS GNP'))
+if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
+    WebUI.click(findTestObject('Object Repository/span_Oferta Educativa'))
+
+    WebUI.click(findTestObject('Object Repository/a_IDEAS GNP'))
+} else {
+    WebUI.comment('Esta fallando el Loggout')
+}
 
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.click(findTestObject('Object Repository/span_Mi Plan de Carrera'))
-} else {
-         WebUI.closeBrowser()   
-        }
 
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
-	WebUI.click(findTestObject('Object Repository/a_Mis Avances'))
+    if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
+        WebUI.click(findTestObject('Object Repository/span_Mi Fuerza de Ventas'))
+
+        WebUI.click(findTestObject('Object Repository/a_Cursos y Designaciones'))
+    } else {
+        WebUI.comment('Esta fallando el Loggout')
+    }
+    
+    WebUI.click(findTestObject('Object Repository/a_Mis Avances'))
 } else {
-	WebUI.closeBrowser()
+    WebUI.comment('Esta fallando el Loggout')
 }
+
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
-	WebUI.click(findTestObject('Object Repository/span_Mi Fuerza de Ventas'))
+    WebUI.click(findTestObject('Object Repository/span_Atraccin y Desarrollo'))
 } else {
-         WebUI.closeBrowser()   
-        }
+    WebUI.comment('Esta fallando el Loggout')
+}
 
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
-	WebUI.click(findTestObject('Object Repository/a_Cursos y Designaciones'))
-} else {
-         WebUI.closeBrowser()   
-        }
-
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
-	WebUI.click(findTestObject('Object Repository/span_Atraccin y Desarrollo'))
-} else {
-         WebUI.closeBrowser()   
-        }
-
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
+if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.doubleClick(findTestObject('Object Repository/span_Autoestudio'))
-} else {
-         WebUI.closeBrowser()   
-        }
 
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
     WebUI.click(findTestObject('Object Repository/a_Microclases'))
-}  else {
-         WebUI.closeBrowser()   
-        }
+} else {
+    WebUI.comment('Esta fallando el Loggout')
+}
 
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
-   WebUI.doubleClick(findTestObject('Object Repository/a_Artculos'))
+    WebUI.doubleClick(findTestObject('Object Repository/a_Artculos'))
 } else {
-         WebUI.closeBrowser()   
-        }
+    WebUI.comment('Esta fallando el Loggout')
+}
 
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
-   WebUI.doubleClick(findTestObject('Object Repository/a_tica y Cumplimiento'))
+if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
+    WebUI.doubleClick(findTestObject('Object Repository/a_tica y Cumplimiento'))
 } else {
-         WebUI.closeBrowser()   
-        }
+    WebUI.comment('Esta fallando el Loggout')
+}
 
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.click(findTestObject('Object Repository/a_Eventos'))
 } else {
-         WebUI.closeBrowser()   
-        }
+    WebUI.comment('Esta fallando el Loggout')
+}
 
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
-    WebUI.doubleClick(findTestObject('Object Repository/a_Eventos'))
-} else {
-         WebUI.closeBrowser()   
-        }
-
-if (WebUI.verifyTextNotPresent('502 Bad Gateway', false )) {
+if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.doubleClick(findTestObject('Object Repository/a_Campaas'))
 } else {
-         WebUI.closeBrowser()   
-        }
+    WebUI.comment('Esta fallando el Loggout')
+}
 
 WebUI.delay(600)
 
+WebUI.click(findTestObject('Object Repository/input_ADAN AGUSTIN GARCIA FIGUEROA MARTINEZ_5049b8'))
+
+WebUI.waitForPageLoad(5)
+
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
-    WebUI.click(findTestObject('Object Repository/input_ADAN AGUSTIN GARCIA FIGUEROA MARTINEZ_5049b8'))
+    WebUI.closeBrowser()
+} else {
+    WebUI.comment('Esta fallando el Loggout')
 }
-
-
-WebUI.closeBrowser()
 
