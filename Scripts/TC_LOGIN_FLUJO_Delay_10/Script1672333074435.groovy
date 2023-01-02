@@ -45,6 +45,12 @@ if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
 
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.click(findTestObject('Object Repository/span_Mi Plan de Carrera'))
+	
+	WebUI.click(findTestObject('Object Repository/a_Mis Avances'))
+} else {
+	WebUI.comment('Esta fallando el Loggout')
+}
+	
 
     if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
         WebUI.click(findTestObject('Object Repository/span_Mi Fuerza de Ventas'))
@@ -53,11 +59,6 @@ if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     } else {
         WebUI.comment('Esta fallando el Loggout')
     }
-    
-    WebUI.click(findTestObject('Object Repository/a_Mis Avances'))
-} else {
-    WebUI.comment('Esta fallando el Loggout')
-}
 
 if (WebUI.verifyTextNotPresent('502 Bad Gateway', false)) {
     WebUI.click(findTestObject('Object Repository/span_Atraccin y Desarrollo'))
